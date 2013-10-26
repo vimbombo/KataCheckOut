@@ -45,7 +45,10 @@ class CheckOutTest < Test::Unit::TestCase
   end
 
   def prices
-    { "A" => 50, "B" => 30, "C" => 20, "D" => 15 }
+    { "A" => 50,
+      "B" => 30,
+      "C" => 20,
+      "D" => 15 }
   end
 
   def specialPrices
